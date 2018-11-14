@@ -12,7 +12,7 @@ class PageSpeed(object):
 
     def __init__(self, api_key=None):
         self.api_key = api_key
-        self.endpoint = 'https://www.googleapis.com/pagespeedonline/v2/runPagespeed'
+        self.endpoint = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed'
 
     def analyse(self, url, filter_third_party_resources=False, screenshot=False,
                 strategy='desktop'):
